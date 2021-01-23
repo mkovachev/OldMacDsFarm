@@ -1,3 +1,3 @@
-export interface Animal {
-    data: any;
+export class Animal {
+    constructor(public data: any) { }
 }
