@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Animal } from './animal.model';
 
 @Component({
@@ -7,5 +7,6 @@ import { Animal } from './animal.model';
   styleUrls: ['./animal.component.css']
 })
 export class AnimalComponent implements Animal {
-  data: any
+  @Input() data: any;
+  type: any;
 }
