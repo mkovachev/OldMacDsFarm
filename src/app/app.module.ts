@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FarmComponent } from './farm/farm.component';
+import { AnimalComponent } from './animal/animal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FarmComponent
+    FarmComponent,
+    AnimalComponent
   ],
   imports: [
     BrowserModule,
