@@ -9,4 +9,5 @@ import { Animal } from './animal.model';
 export class AnimalComponent implements Animal {
   @Input() data: any;
   type: any;
+
 }
