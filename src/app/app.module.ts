@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { FarmComponent } from './farm/farm.component';
 import { AnimalComponent } from './animal/animal.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +15,7 @@ import { AnimalComponent } from './animal/animal.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
