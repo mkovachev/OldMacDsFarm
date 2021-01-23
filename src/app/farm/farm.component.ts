@@ -41,6 +41,6 @@ export class FarmComponent implements OnInit {
   async refresh() {
     this.interval = setInterval(() => {
       this.loadComponent();
-    }, 28000);
+    }, 30000);
   }
 }
