@@ -8,13 +8,13 @@ import { AnimalService } from './services/animal.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = `old Mac's Farm`;
-
-  animals!: Array<Animal>;
+  title = `old Mac's Farm`
+  animals!: Array<Animal>
 
   constructor(private animalService: AnimalService) { }
 
   ngOnInit() {
-    this.animals = this.animalService.getAnimals();
+    this.animals = this.animalService.getAnimals()
   }
+
 }
