@@ -1,0 +1,19 @@
+.card {
+  flex-direction: row;
+  align-items: center;
+  background: transparent;
+  border: none;
+  position: absolute;
+  bottom: 0px;
+  right: 25%;
+  left: 50%;
+  margin-left: -150px;
+}
+.card-title {
+  font-weight: bold;
+}
+.card img {
+  width: 40%;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
