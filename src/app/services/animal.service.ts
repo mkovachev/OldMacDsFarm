@@ -13,7 +13,7 @@ export class AnimalService {
       new Animal(AnimalComponent, { name: 'Dog', sound: 'woof', image: "../../assets/images/dog.png" }),
       new Animal(AnimalComponent, { name: 'Cat', sound: 'meow', image: "../../assets/images/cat.png" }),
       new Animal(AnimalComponent, { name: 'Cow', sound: 'moo', image: "../../assets/images/cow.png" }),
-      new Animal(AnimalComponent, { name: 'Sheep', sound: 'baa', image: "../../assets/images/sheep.jpg" })
+      new Animal(AnimalComponent, { name: 'Sheep', sound: 'baa', image: "../../assets/images/sheep.png" })
     ];
   }
 }
