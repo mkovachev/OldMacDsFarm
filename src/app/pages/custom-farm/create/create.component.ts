@@ -27,6 +27,7 @@ export class CreateComponent {
 
   create() {
     this.farmService.create(this.animalForm.value)
+    console.log(this.animalForm.value);
     this.router.navigate(['custom'])
     this.toastr.info("Your animal was successfully added to your farm")
   }

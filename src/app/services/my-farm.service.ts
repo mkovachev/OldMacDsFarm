@@ -42,15 +42,10 @@ export class MyFarmService {
       {
         name: 'Sheep', sound: 'baa', image: "../../assets/images/sheep.png"
       }
-    },
-
+    }
   ]
 
   all() {
     return this.animals
-  }
-
-  create() {
-
   }
 }
