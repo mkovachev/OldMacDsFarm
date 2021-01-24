@@ -12,35 +12,35 @@ export class MyFarmService {
       type: AnimalComponent,
       data:
       {
-        name: 'Duck', sound: 'quack', image: "../../assets/images/duck.png"
+        breed: 'Duck', sound: 'quack', image: "../../assets/images/duck.png"
       }
     },
     {
       type: AnimalComponent,
       data:
       {
-        name: 'Dog', sound: 'woof', image: "../../assets/images/dog.png"
+        breed: 'Dog', sound: 'woof', image: "../../assets/images/dog.png"
       }
     },
     {
       type: AnimalComponent,
       data:
       {
-        name: 'Cat', sound: 'meow', image: "../../assets/images/cat.png"
+        breed: 'Cat', sound: 'meow', image: "../../assets/images/cat.png"
       }
     },
     {
       type: AnimalComponent,
       data:
       {
-        name: 'Cow', sound: 'moo', image: "../../assets/images/cow.png"
+        breed: 'Cow', sound: 'moo', image: "../../assets/images/cow.png"
       }
     },
     {
       type: AnimalComponent,
       data:
       {
-        name: 'Sheep', sound: 'baa', image: "../../assets/images/sheep.png"
+        breed: 'Sheep', sound: 'baa', image: "../../assets/images/sheep.png"
       }
     }
   ]
