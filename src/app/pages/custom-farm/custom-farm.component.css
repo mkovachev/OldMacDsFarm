@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+.col {
+  display: inline;
+  justify-content: center;
+  text-align: center;
+}
+
+div {
+  justify-content: center;
+  text-align: center;
+}
+
+h1, h4 {
+  color: rgb(228, 96, 19);
+  font-weight: bold;
+}

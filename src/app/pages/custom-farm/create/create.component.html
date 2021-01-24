@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <form [formGroup]="animalForm" (ngSubmit)="create()">
+                <div class="form-group">
+                    <label for="breed"><b>Animal Breed</b></label>
+                    <input type="text" class="form-control" formControlName="breed">
+                </div>
+                <div class="form-group">
+                    <label for="noise"><b>Remind us what type of noise does this animal make?</b></label>
+                    <input type="text" class="form-control" formControlName="noise">
+                </div>
+                <div class="form-group">
+                    <label for="imageUrl"><b>Add an image</b></label>
+                    <input type="text" class="form-control" formControlName="imageUrl">
+                </div>
+                <button class="btn btn-outline-warning" type="submit">Create</button>
+            </form>
+        </div>
+    </div>
+</div>
