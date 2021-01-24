@@ -21,14 +21,13 @@ export class CreateComponent {
     private router: Router) {
     this.animalForm = this.fb.group<CustomAnimal>({
       breed: [null, Validators.required],
-      noise: [null, Validators.required],
-      imageUrl: [null]
+      sound: [null, Validators.required]
     })
   }
 
   create() {
     this.farmService.create(this.animalForm.value)
     this.router.navigate(['custom'])
-    this.toastr.success("Your animal was successfully added to your farm")
+    this.toastr.info("Your animal was successfully added to your farm")
   }
 }

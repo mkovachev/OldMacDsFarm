@@ -11,6 +11,8 @@ import { MyFarmRoutingModule } from './pages/my-farm/my-farm-routing.module';
 import { CustomFarmRoutingModule } from './pages/custom-farm/custom-farm-routing.module';
 import { NgStackFormsModule } from '@ng-stack/forms';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NgStackFormsModule,
     FormsModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
     LayoutModule,
     MyFarmModule,
     CustomFarmModule,

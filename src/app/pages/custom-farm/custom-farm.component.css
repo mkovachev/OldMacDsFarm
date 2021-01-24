@@ -1,19 +1,20 @@
-.container {
-  display: flex;
-}
-
-.col {
-  display: inline;
-  justify-content: center;
-  text-align: center;
-}
-
 div {
   justify-content: center;
   text-align: center;
 }
 
-h1, h4 {
+.col {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
   color: rgb(228, 96, 19);
+  font-weight: bold;
+}
+
+h5 {
+  color: rgb(253, 250, 249);
   font-weight: bold;
 }
