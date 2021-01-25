@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { RenderComponent } from './render/render.component';
 import { CreateComponent } from './create/create.component';
-import { CustomFarmComponent } from './custom-farm.component';
 
 const routes: Routes = [
     { path: 'custom/create', component: CreateComponent },
-    { path: 'custom', component: CustomFarmComponent }
+    { path: 'custom', component: RenderComponent }
 ];
 
 @NgModule({
