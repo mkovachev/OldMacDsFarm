@@ -3,9 +3,9 @@ import { CustomAnimal } from 'src/app/models/custom-animal.model';
 
 @Component({
   selector: 'app-custom-farm',
-  templateUrl: './custom-farm.component.html',
-  styleUrls: ['./custom-farm.component.css']
+  template: ``
 })
+
 export class CustomFarmComponent {
   @Input() animals!: Array<CustomAnimal>;
   interval!: any;
