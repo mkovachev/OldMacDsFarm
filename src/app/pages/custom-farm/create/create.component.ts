@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@ng-stack/forms';
 import { Router } from '@angular/router';
-import { ToastrService } from 'ngx-toastr';
 import { CustomAnimal } from 'src/app/models/custom-animal.model';
 import { CustomFarmService } from 'src/app/services/custom-farm.service';
 
@@ -17,7 +16,6 @@ export class CreateComponent {
   constructor(
     private fb: FormBuilder,
     private farmService: CustomFarmService,
-    public toastr: ToastrService,
     private router: Router) {
     this.animalForm = this.fb.group<CustomAnimal>({
       breed: [null, Validators.required],
@@ -29,6 +27,5 @@ export class CreateComponent {
     this.farmService.create(this.animalForm.value)
     console.log(this.animalForm.value);
     this.router.navigate(['custom'])
-    this.toastr.info("Your animal was successfully added to your farm")
   }
 }
