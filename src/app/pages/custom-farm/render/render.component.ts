@@ -4,7 +4,8 @@ import { CustomFarmService } from 'src/app/services/custom-farm.service';
 
 @Component({
   selector: 'app-render',
-  templateUrl: './render.component.html'
+  templateUrl: './render.component.html',
+  styleUrls: ['./render.component.css']
 })
 export class RenderComponent implements OnInit {
   animals!: Array<CustomAnimal>
