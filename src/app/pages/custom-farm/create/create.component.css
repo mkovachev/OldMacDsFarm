@@ -1,12 +1,28 @@
 .form-control {
   background: transparent;
-  border: 2px solid #e7f706;
+  border: 2px solid yellow;
 }
 
-.toast {
-  opacity: 1 !important;
+div,
+button {
+  color: rgb(228, 68, 19);
+  font-size: 16px;
+  text-align: left;
 }
 
-div, button{
-   color: rgb(228, 96, 19);
+button:hover {
+  color: rgb(228, 68, 19);
+}
+
+input,
+select,
+textarea {
+  color: rgb(228, 68, 19);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+textarea:focus,
+input:focus {
+  color: whitesmoke;
 }

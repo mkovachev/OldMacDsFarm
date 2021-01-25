@@ -1,13 +1,14 @@
 import { Component, ComponentFactoryResolver, Input, OnInit, ViewContainerRef } from '@angular/core';
-import { MyAnimal } from 'src/app/models/my-animal.model';
+import { Animal } from 'src/app/models/animal.model';
+import { AnimalComponent } from './animal/animal.component';
 
 @Component({
-  selector: 'myfarm',
+  selector: 'farm',
   template: ``
 })
 
-export class MyFarmComponent implements OnInit {
-  @Input() animals!: Array<MyAnimal>;
+export class FarmComponent implements OnInit {
+  @Input() animals!: Array<Animal>;
   interval!: any;
   index = -1;
 
@@ -26,21 +27,21 @@ export class MyFarmComponent implements OnInit {
   }
 
   loadComponent() {
-
     this.index = (this.index + 1) % this.animals.length;
     const animal = this.animals[this.index];
 
-    const factory = this.resolver.resolveComponentFactory(animal.type)
+    const factory = this.resolver.resolveComponentFactory(AnimalComponent)
     this.vcRef.createComponent(factory)
     this.vcRef.clear();
-
     const componentRef = this.vcRef.createComponent(factory);
-    componentRef.instance.data = animal.data;
+    componentRef.instance.breed = animal.breed;
+    componentRef.instance.sound = animal.sound;
+    componentRef.instance.image = animal.image;
   }
 
   refresh() {
     this.interval = setInterval(() => {
       this.loadComponent();
-    }, 30000);
+    }, 26000);
   }
 }

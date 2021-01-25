@@ -1,0 +1,12 @@
+<div class="box">
+    <div>
+        <a routerLink="/" class="btn btn-warning">Back to home</a>
+    </div>
+    <div class="ml-5">
+        <audio controls autoplay>
+            <source src="../assets//mp3//myfarm.mp3" type="audio/ogg">
+        </audio>
+    </div>
+
+    <farm *ngIf="animals.length > 0" [animals]="animals"></farm>
+</div>

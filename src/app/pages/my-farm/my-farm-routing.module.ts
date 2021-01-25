@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { RenderComponent } from './render/render.component';
+import { MyFarmRenderComponent } from './render/myfarm-render.component';
 
 const routes: Routes = [
-    { path: 'myfarm', component: RenderComponent },
+    { path: 'myfarm', component: MyFarmRenderComponent },
 ];
 
 @NgModule({

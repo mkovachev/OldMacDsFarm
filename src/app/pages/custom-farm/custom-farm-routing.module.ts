@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { RenderComponent } from './render/render.component';
-import { CreateComponent } from './create/create.component';
+import { CustomRenderComponent } from './render/custom-render.component';
 
 const routes: Routes = [
-    { path: 'custom/create', component: CreateComponent },
-    { path: 'custom', component: RenderComponent }
+    { path: 'custom', component: CustomRenderComponent }
 ];
 
 @NgModule({

@@ -1,31 +1,30 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@ng-stack/forms';
-import { Router } from '@angular/router';
-import { CustomAnimal } from 'src/app/models/custom-animal.model';
-import { CustomFarmService } from 'src/app/services/custom-farm.service';
+import { Animal } from 'src/app/models/animal.model';
+import { FarmService } from 'src/app/services/farm.service';
 
 @Component({
-  selector: 'custom-farm-create',
+  selector: 'custom-create',
   templateUrl: './create.component.html',
   styleUrls: ['./create.component.css']
 })
 export class CreateComponent {
-  animals!: Array<CustomAnimal>
-  animalForm!: FormGroup<CustomAnimal>;
+  animals!: Array<Animal>
+  form!: FormGroup<Animal>
 
   constructor(
     private fb: FormBuilder,
-    private farmService: CustomFarmService,
-    private router: Router) {
-    this.animalForm = this.fb.group<CustomAnimal>({
+    private farmService: FarmService) {
+    this.form = this.fb.group<Animal>({
       breed: [null, Validators.required],
-      sound: [null, Validators.required]
+      sound: [null, Validators.required],
+      image: ''
     })
   }
 
-  create() {
-    this.farmService.create(this.animalForm.value)
-    console.log(this.animalForm.value);
-    this.router.navigate(['custom'])
+  create(): void {
+    const animal = this.farmService.create(this.form.value)
+    this.form.reset()
+    console.log(animal);
   }
 }

@@ -8,12 +8,18 @@
   right: 25%;
   left: 50%;
   margin-left: -150px;
+  width: 50%;
 }
-.card-title {
-  font-weight: bold;
-}
-.card img {
+
+.card-img {
   width: 30%;
   border-top-right-radius: 0;
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
+
+.card-text {
+  color: rgb(228, 68, 19);
+  font-weight: bold;
+  font-size: large;
+}
+

@@ -13,6 +13,7 @@ import { NgStackFormsModule } from '@ng-stack/forms';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { ToastrModule } from 'ngx-toastr';
     CustomFarmModule,
     LayoutRoutingModule,
     MyFarmRoutingModule,
-    CustomFarmRoutingModule
+    CustomFarmRoutingModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

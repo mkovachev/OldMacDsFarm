@@ -1,0 +1,48 @@
+.box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.animals {
+  display: block;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+ul {
+  width: 30%;
+  background: transparent;
+  border: 2px solid yellow;
+  border-radius: 25px;
+  color: rgb(228, 68, 19);
+  font-size: x-large;
+}
+
+ul:hover {
+  background-color: yellow;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  color: whitesmoke;
+}
+
+h1 {
+  color: rgb(228, 96, 19);
+  font-weight: bold;
+}
+
+h5 {
+  color: rgb(253, 250, 249);
+  font-weight: bold;
+}
+
+.form-control {
+  background: transparent;
+  border: 2px solid yellow;
+}

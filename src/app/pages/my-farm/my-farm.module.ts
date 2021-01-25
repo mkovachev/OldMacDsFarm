@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MyFarmComponent } from './my-farm.component';
-import { AnimalComponent } from './animal/animal.component';
-import { RenderComponent } from './render/render.component';
+import { MyFarmRenderComponent } from './render/myfarm-render.component';
+import { SharedModule } from 'src/app/shared/shared.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [AnimalComponent, MyFarmComponent, RenderComponent],
+  declarations: [MyFarmRenderComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule,
+    RouterModule
   ]
 })
 export class MyFarmModule { }

@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CustomFarmComponent } from './custom-farm.component';
 import { CreateComponent } from './create/create.component';
 import { RouterModule } from '@angular/router';
 import { NgStackFormsModule } from '@ng-stack/forms';
-import { RenderComponent } from './render/render.component';
-
+import { CustomRenderComponent } from './render/custom-render.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
-  declarations: [CustomFarmComponent, CreateComponent, RenderComponent],
+  declarations: [CreateComponent, CustomRenderComponent],
   imports: [
     CommonModule,
     NgStackFormsModule,
-    RouterModule
+    RouterModule,
+    SharedModule
   ]
 })
 export class CustomFarmModule { }
