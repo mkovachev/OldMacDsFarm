@@ -23,8 +23,7 @@ export class CreateComponent {
   }
 
   create(): void {
-    const animal = this.farmService.create(this.form.value)
+    this.farmService.create(this.form.value)
     this.form.reset()
-    console.log(animal);
   }
 }
