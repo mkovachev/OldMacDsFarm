@@ -2,7 +2,7 @@ import { Component, ComponentFactoryResolver, Input, ViewContainerRef } from '@a
 import { CustomAnimal } from 'src/app/models/custom-animal.model';
 
 @Component({
-  selector: 'app-custom-farm',
+  selector: 'custom-farm',
   template: ``
 })
 

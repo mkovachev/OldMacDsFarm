@@ -5,7 +5,7 @@ import { CustomAnimal } from 'src/app/models/custom-animal.model';
 import { CustomFarmService } from 'src/app/services/custom-farm.service';
 
 @Component({
-  selector: 'app-create',
+  selector: 'custom-farm-create',
   templateUrl: './create.component.html',
   styleUrls: ['./create.component.css']
 })

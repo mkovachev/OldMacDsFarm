@@ -3,7 +3,7 @@ import { MyAnimal } from 'src/app/models/my-animal.model';
 import { MyFarmService } from 'src/app/services/my-farm.service';
 
 @Component({
-  selector: 'app-render',
+  selector: 'myfarm-render',
   templateUrl: './render.component.html'
 })
 

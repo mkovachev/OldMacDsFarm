@@ -3,7 +3,7 @@ import { CustomAnimal } from 'src/app/models/custom-animal.model';
 import { CustomFarmService } from 'src/app/services/custom-farm.service';
 
 @Component({
-  selector: 'app-render',
+  selector: 'custom-farm-render',
   templateUrl: './render.component.html',
   styleUrls: ['./render.component.css']
 })

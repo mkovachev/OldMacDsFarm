@@ -2,7 +2,7 @@ import { Component, ComponentFactoryResolver, Input, OnInit, ViewContainerRef } 
 import { MyAnimal } from 'src/app/models/my-animal.model';
 
 @Component({
-  selector: 'app-my-farm',
+  selector: 'myfarm',
   template: ``
 })
 
