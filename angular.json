@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "oldMacsFarm": {
+    "oldMacDsFarm": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/oldMacsFarm",
+            "outputPath": "dist/oldMacDsFarm",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -70,18 +70,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "oldMacsFarm:build"
+            "browserTarget": "oldMacDsFarm:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "oldMacsFarm:build:production"
+              "browserTarget": "oldMacDsFarm:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "oldMacsFarm:build"
+            "browserTarget": "oldMacDsFarm:build"
           }
         },
         "test": {
@@ -120,16 +120,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "oldMacsFarm:serve"
+            "devServerTarget": "oldMacDsFarm:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "oldMacsFarm:serve:production"
+              "devServerTarget": "oldMacDsFarm:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "oldMacsFarm"
+  "defaultProject": "oldMacDsFarm"
 }
