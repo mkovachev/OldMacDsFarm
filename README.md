@@ -6,9 +6,9 @@ For Example:
 
 Old MacDonald had a farm, E-I-E-I-O! <br />
 And on his farm he had a **cow**, E-I-E-I-O! <br />
-With a **moo-moo** here and a **moo-moo** there, <br />
+With a **moo moo** here and a **moo moo** there, <br />
 Here a **moo**, there a **moo**, <br />
-Everywhere a **moo-moo**, <br />
+Everywhere a **moo moo**, <br />
 Old MacDonald had a farm, E-I-E-I-O! <br />
 
 ## Home page
