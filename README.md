@@ -20,7 +20,7 @@ From the home page you can choose between two options:
 <li>Create your own farm and sing the song with help of the lyrics displayed</li>
 </ol>
 
-![alt text](https://github.com/mkovachev/OldMacDsFarm/blob/main/home.png)
+![alt text](https://github.com/mkovachev/OldMacDsFarm/blob/main/src/assets/images/home.PNG)
 
 ## Web page address
 
