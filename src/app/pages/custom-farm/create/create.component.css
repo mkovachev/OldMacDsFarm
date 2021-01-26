@@ -3,7 +3,7 @@
   border: 2px solid yellow;
 }
 
-.form-group{
+.form-group {
   width: 30%;
 }
 
@@ -19,15 +19,15 @@ button:hover {
 }
 
 input {
-  color: whitesmoke;
+  color: yellow;
   font-size: medium;
   font-weight: bold;
 }
 
 input:focus {
-  color: rgb(228, 68, 19);
+  color: whitesmoke;
 }
 
-input::placeholder{
+input::placeholder {
   font-size: medium;
 }
