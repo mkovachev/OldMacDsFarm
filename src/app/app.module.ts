@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
@@ -10,33 +9,23 @@ import { LayoutRoutingModule } from './layout/layout-routing.module';
 import { MyFarmRoutingModule } from './pages/my-farm/my-farm-routing.module';
 import { CustomFarmRoutingModule } from './pages/custom-farm/custom-farm-routing.module';
 import { NgStackFormsModule } from '@ng-stack/forms';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ToastrModule } from 'ngx-toastr';
 import { SharedModule } from './shared/shared.module';
 
-
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgStackFormsModule,
-    FormsModule,
-    ReactiveFormsModule,
-    BrowserAnimationsModule,
-    ToastrModule.forRoot(),
+    SharedModule,
     LayoutModule,
-    MyFarmModule,
-    CustomFarmModule,
     LayoutRoutingModule,
+    MyFarmModule,
     MyFarmRoutingModule,
+    CustomFarmModule,
     CustomFarmRoutingModule,
-    SharedModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
