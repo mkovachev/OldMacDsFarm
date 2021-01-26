@@ -20,6 +20,8 @@ From the home page you can choose between two options:
 <li>Create your own farm and sing the song with help of the lyrics displayed</li>
 </ol>
 
+![alt text](https://github.com/[mkovachev]/[OldMacDsFarm]/blob/[main]/home.png?raw=true)
+
 ## Web page address
 
 Just visit [old MacDonald's Farm web page](https://mcdsfarm-d0702.web.app) and start the journey with the most famous farmer old MacDonald
