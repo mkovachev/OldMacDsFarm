@@ -1,4 +1,4 @@
-# OldMacsFarm
+# Old MacDonald Had a Farm story
 
 "Old MacDonald Had a Farm" is a children's song and nursery rhyme about a farmer named MacDonald and the five animals he keeps in his farm. He has a duck, a dog, a cat, a cow and a sheep. And each verse of the song changes the name of the animal and its respective noise.
 
@@ -22,4 +22,4 @@ You can choose between two options:
 
 ## Web page address
 
-Just visit [title](https://oldmacsfarm-98d6d.web.app/) and start the journey with the most famous farmer old MacDonald
+Just visit [old MacDonald's Farm web page](https://oldmacsfarm-98d6d.web.app/) and start the journey with the most famous farmer old MacDonald
