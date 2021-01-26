@@ -4,12 +4,12 @@
 
 For Example:
 
-Old MacDonald had a farm, E-I-E-I-O!
-And on his farm he had a **cow**, E-I-E-I-O!
-With a **moo-moo** here and a **moo-moo** there,
-Here a **moo**, there a **moo**,
-Everywhere a **moo-moo**,
-Old MacDonald had a farm, E-I-E-I-O!
+Old MacDonald had a farm, E-I-E-I-O! <br />
+And on his farm he had a **cow**, E-I-E-I-O! <br />
+With a **moo-moo** here and a **moo-moo** there, <br />
+Here a **moo**, there a **moo**, <br />
+Everywhere a **moo-moo**, <br />
+Old MacDonald had a farm, E-I-E-I-O! <br />
 
 ## Home page
 
