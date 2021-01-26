@@ -11,13 +11,13 @@ Here a **moo**, there a **moo**, <br />
 Everywhere a **moo moo**, <br />
 Old MacDonald had a farm, E-I-E-I-O! <br />
 
-## Home page
+## Web app options
 
-You can choose between two options:
+From home page you can choose between two options:
 
 <ol>
-<li>play the song with the five MacDonald animals</li>
-<li>Or create your own farm and sing the song with help of the lyrics displayed</li>
+<li>Play the song with the five MacDonald animals</li>
+<li>Create your own farm and sing the song with help of the lyrics displayed</li>
 </ol>
 
 ## Web page address
