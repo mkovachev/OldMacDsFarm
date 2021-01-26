@@ -22,4 +22,4 @@ From the home page you can choose between two options:
 
 ## Web page address
 
-Just visit [old MacDonald's Farm web page](https://oldmacsfarm-98d6d.web.app/) and start the journey with the most famous farmer old MacDonald
+Just visit [old MacDonald's Farm web page](https://mcdsfarm-d0702.web.app) and start the journey with the most famous farmer old MacDonald
