@@ -16,8 +16,8 @@ export class CreateComponent {
     private fb: FormBuilder,
     private farmService: FarmService) {
     this.form = this.fb.group<Animal>({
-      breed: [null, Validators.required],
-      sound: [null, Validators.required],
+      breed: ['', Validators.required],
+      sound: ['', Validators.required],
       image: ''
     })
   }
