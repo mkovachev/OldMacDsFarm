@@ -8,7 +8,6 @@ import { CustomFarmModule } from './pages/custom-farm/custom-farm.module';
 import { LayoutRoutingModule } from './layout/layout-routing.module';
 import { MyFarmRoutingModule } from './pages/my-farm/my-farm-routing.module';
 import { CustomFarmRoutingModule } from './pages/custom-farm/custom-farm-routing.module';
-import { NgStackFormsModule } from '@ng-stack/forms';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -16,16 +15,15 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgStackFormsModule,
     SharedModule,
     LayoutModule,
     LayoutRoutingModule,
     MyFarmModule,
     MyFarmRoutingModule,
     CustomFarmModule,
-    CustomFarmRoutingModule,
+    CustomFarmRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
