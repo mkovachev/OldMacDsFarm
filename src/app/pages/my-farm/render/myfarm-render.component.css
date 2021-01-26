@@ -9,5 +9,9 @@ h1 {
 }
 
 a {
+  color: rgb(228, 96, 19);
+}
+
+a:hover {
   color: whitesmoke;
 }

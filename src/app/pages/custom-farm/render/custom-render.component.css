@@ -29,6 +29,10 @@ li {
 }
 
 a {
+   color: rgb(228, 96, 19);
+}
+
+a:hover {
   color: whitesmoke;
 }
 
@@ -38,7 +42,7 @@ h1 {
 }
 
 h5 {
-  color: rgb(253, 250, 249);
+  color: whitesmoke;
   font-weight: bold;
 }
 

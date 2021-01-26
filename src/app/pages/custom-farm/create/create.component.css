@@ -11,18 +11,15 @@ button {
 }
 
 button:hover {
-  color: rgb(228, 68, 19);
+  color: whitesmoke;
 }
 
-input,
-select,
-textarea {
-  color: rgb(228, 68, 19);
+input {
+  color: whitesmoke;
   font-size: x-large;
   font-weight: bold;
 }
 
-textarea:focus,
 input:focus {
-  color: whitesmoke;
+  color: rgb(228, 68, 19);
 }

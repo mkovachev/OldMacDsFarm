@@ -21,3 +21,7 @@ a {
   color: whitesmoke
 }
   
+a:hover {
+  color: rgb(241, 87, 87);
+}
+  
