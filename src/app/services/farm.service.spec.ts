@@ -1,12 +1,9 @@
 import { TestBed } from '@angular/core/testing';
-import { Animal } from '../models/animal.model';
 import { FarmService } from './farm.service';
-import { mocked } from 'ts-jest/utils';
+
 
 describe('FarmService', () => {
   let service: FarmService
-  const custom = []
-  const animal = new Animal('', '', '')
 
   beforeEach(() => {
     TestBed.configureTestingModule({})
