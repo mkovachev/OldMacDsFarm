@@ -1,25 +1,24 @@
 .card {
+  position: absolute;
   flex-direction: row;
+  flex-direction: col;
+  right: 50%;
+  left: 50%;
+  bottom: 15%;
   align-items: center;
   background: transparent;
   border: none;
-  position: absolute;
-  bottom: 0px;
-  right: 25%;
-  left: 50%;
-  margin-left: -150px;
-  width: 50%;
+  height: 50px;
+  width: 600px;
 }
 
 .card-img {
-  width: 30%;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  width: 20%;
+  height: auto;
 }
 
 .card-text {
-  color: rgb(228, 68, 19);
+  color: rgb(82, 80, 80);
   font-weight: bold;
-  font-size: large;
+  font-size: auto;
 }
-
