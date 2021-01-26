@@ -33,7 +33,7 @@ export class FarmService {
     return this.custom
   }
 
-  create(animal: Animal) {
+  create(animal: Animal): void {
     this.custom.push(animal)
   }
 

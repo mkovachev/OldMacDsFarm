@@ -1,12 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { Animal } from '../models/animal.model';
 import { FarmService } from './farm.service';
+import { mocked } from 'ts-jest/utils';
 
 describe('FarmService', () => {
   let service: FarmService
   const custom = []
-  const animal = new Animal('breed', 'sound', '')
-  
+  const animal = new Animal('', '', '')
+
   beforeEach(() => {
     TestBed.configureTestingModule({})
     service = TestBed.inject(FarmService)
@@ -16,10 +17,16 @@ describe('FarmService', () => {
     expect(service).toBeTruthy()
   })
 
-  // describe("create function should add new animal into custom array", () => {
-  //   return service.create(animal), result! => {
-  //     expect(result.length).toBeGreaterThan(0);
-  //   })
-  // })
+  it('should have create function', () => {
+    expect(service.create).toBeTruthy()
+  })
+
+  it('should have allMyFarm function', () => {
+    expect(service.allMyFarm).toBeTruthy()
+  })
+
+  it('should have allCustom function', () => {
+    expect(service.allCustom).toBeTruthy()
+  })
 
 })
