@@ -36,17 +36,7 @@ a:hover {
   color: whitesmoke;
 }
 
-h1 {
+h5 {
   color: rgb(228, 96, 19);
   font-weight: bold;
-}
-
-h5 {
-  color: whitesmoke;
-  font-weight: bold;
-}
-
-.form-control {
-  background: transparent;
-  border: 2px solid yellow;
 }

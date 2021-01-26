@@ -3,10 +3,14 @@
   border: 2px solid yellow;
 }
 
+.form-group{
+  width: 30%;
+}
+
 div,
 button {
   color: rgb(228, 68, 19);
-  font-size: 16px;
+  font-size: 13px;
   text-align: left;
 }
 
@@ -16,10 +20,14 @@ button:hover {
 
 input {
   color: whitesmoke;
-  font-size: x-large;
+  font-size: medium;
   font-weight: bold;
 }
 
 input:focus {
   color: rgb(228, 68, 19);
+}
+
+input::placeholder{
+  font-size: medium;
 }
