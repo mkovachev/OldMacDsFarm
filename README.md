@@ -13,7 +13,7 @@ Old MacDonald had a farm, E-I-E-I-O! <br />
 
 ## Web app options
 
-From home page you can choose between two options:
+From the home page you can choose between two options:
 
 <ol>
 <li>Play the song with the five MacDonald animals</li>
