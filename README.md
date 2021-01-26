@@ -16,10 +16,10 @@ Old MacDonald had a farm, E-I-E-I-O! <br />
 You can choose between two options:
 
 <ol>
-<li>play the song with the five MacDonald animals<li>
-<li>Or create your own farm and sing the song with help of the lyrics displayed<li>
-<ol>
+<li>play the song with the five MacDonald animals</li>
+<li>Or create your own farm and sing the song with help of the lyrics displayed</li>
+</ol>
 
-## Visit the web page
+## Web page address
 
-Just got to https://oldmacsfarm-98d6d.web.app/ and start the journey with old MacDonalds
+Just visit [title](https://oldmacsfarm-98d6d.web.app/) and start the journey with the most famous farmer old MacDonald
