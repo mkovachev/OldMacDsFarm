@@ -1,27 +1,24 @@
-.container {
+.flexbox-container {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.col {
-  justify-content: center;
-  text-align: center;
-}
-
-div {
-  justify-content: center;
+.flex-item {
   text-align: center;
 }
 
 h1 {
   color: rgb(241, 87, 87);
   font-weight: bold;
+  justify-content: center;
+  text-align: center;
 }
 
 a {
-  color: whitesmoke
+  color: whitesmoke;
 }
-  
+
 a:hover {
   color: rgb(241, 87, 87);
 }
-  
