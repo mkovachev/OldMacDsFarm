@@ -1,11 +1,12 @@
-.box {
+.flexbox-container {
   display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1 {
-  color: rgb(241, 87, 87);
-  font-weight: bold;
+.flex-item lyrics{
+  flex-grow: 1;
+  align-items: flex-end;
 }
 
 a {

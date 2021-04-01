@@ -1,12 +1,13 @@
-<div class="box">
-    <div>
+<div class="flexbox-container">
+    <div class="flex-item link">
         <a routerLink="/" class="btn btn-warning">Back to home</a>
     </div>
-    <div class="ml-5">
+    <div class="flex-item sound">
         <audio controls autoplay loop>
             <source src="../assets//mp3//myfarm.mp3" type="audio/ogg">
         </audio>
     </div>
-
-    <farm *ngIf="animals.length > 0" [animals]="animals"></farm>
+    <div class="flex-item lyrics">
+        <farm *ngIf="animals.length > 0" [animals]="animals"></farm>
+    </div>
 </div>
